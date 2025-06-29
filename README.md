@@ -11,10 +11,10 @@
 #import "../dialy_template.typ": enikki
 
 #enikki(
-  datetime(year: 2025, month: 6, day: 24),
-  "タイトル",
-  [#image("sample.png")],
-  [
+  date:datetime(year: 2025, month: 6, day: 30),
+  title:"タイトル",
+  picture:[#image("sample.png")],
+  body:[
     ここに本文を書きます。
   ],
   main_size:1.0em//本文のフォントサイズ。デフォルトは1.0em
