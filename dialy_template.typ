@@ -11,10 +11,11 @@
 
 
 #let enikki(
-  date,
-  title,
+  date: datetime.today(),
+  title: "title",
   picture: "picture",
-  body,
+  body: [本文],
+  main_size: 1.0em,
 ) = {
   set page(paper: "a6", margin: (x: 0.5cm, y: 0.5cm))
   // --- 日付 ---
@@ -40,6 +41,7 @@
     // (下) 文章のスペース
     box(width: 100%, height: 75%, stroke: 2pt, inset: 10pt, [
       #set underline(offset: 2pt)
+      #set text(size: main_size)
       #underline(body)
     ]),
   )
