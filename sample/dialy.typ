@@ -1,7 +1,7 @@
 #import "../dialy_template.typ": enikki
 
 #enikki(
-  date: datetime(year: 2025, month: 6, day: 24),
+  date: datetime(year: 2025, month: 6, day: 30),
   title: "dialy_templeteの公開！",
   //540px x 310pxのイラストがピッタリはまる。
   picture: [#image("sample.png")],
